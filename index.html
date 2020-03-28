@@ -1,22 +1,110 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Product Landing page</title>
   </head>
   <body>
-   
+    <hearder id="header">
+      <div style="display: flex;">
+        <img style="margin-left: 10px;" src="motorcycle.png" alt="motorcycle" id="header-img" />
+        <h2 style="align-self: center; margin-left: 10px;"">Motorcycle</h2>
+      </div>
+      <nav class="nav-bar">
+        <a href="#categories">Categories</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </hearder>
+
+    <div align="center">
+      <video width="500" controls>
+        <source src="./video.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div id="categories" align="center">
+      <h1 id="contact">Categories</h1>
+      <p>
+        Electric Motorcycle & Scooters : Electric motorcycles and scooters are
+        plug-in electric vehicles with two or three wheels. The electricity is
+        stored on board in a rechargeable battery, which drives one or more
+        electric motors. Electric scooters have a step-through frame.
+      </p>
+      <p>
+        Diesel Motorcycle: A diesel motorcycle is a motorcycle with a diesel
+        engine. With a traditionally poor power-to-weight ratio, most diesel
+        engines are generally unsuited for use on motorcycles which normally
+        desire low weight, compact size, high RPMs and rapid acceleration.
+      </p>
+    </div>
+
+    <div align="center">
+      <h1>Pricing</h1>
+      <div id="pricing">
+        <div id="electric">
+          <h2>Electric & Scooter</h2>
+          <h4>starting at 700$</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+            reiciendis.
+          </p>
+        </div>
+        <div id="diesel">
+          <h2>Diesel</h2>
+          <h4>starting at 1000$</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+            quod!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <form
+      action="https://www.freecodecamp.com/email-submit"
+      id="form"
+      align="center"
+    >
+      <h1 id="contact">Contact Us</h1>
+      <label for="email">
+        <input type="email" id="email" placeholder="Email" required />
+      </label>
+      <label for="submit">
+        <input type="submit" />
+      </label>
+    </form>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

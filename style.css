@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+video{
+  display: blo;
+  justify-content: center;
+}
+#header-img {
+  width: 100px;
+  height: 100px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.nav-bar {
+  margin-top: 15px;
+}
+.pricing-button{
+  background-color: rgb(122, 7, 7);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+#categories{
+  background-color: #ddd;
+  padding: 20px;
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.nav-bar a {
+  color: #333;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+#form #email {
+  height: 40px;
+  padding-left: 10px;  
+}
+#form input {
+  height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+
+
+#pricing {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: #ddd; */
+  max-width: 800px;
+  margin: auto;
+}
+#pricing #electric,#diesel {
+  background-color: #eee;
+  width: 375px;
+  margin: 15px;
+  line-height: 1.5;
+  height: 180px;
+  text-align: center;
+  
+}
+
+#pricing #electric h2,#diesel h2 {
+  background-color: #333;
+  color: #eee;
+}
+
+
+
+
+@media(max-width: 500px){
+  .nav-bar a{
+    font-size: 16px ;
+    margin-right: 0;
+  }
+  video{
+    max-width: 100%;
+  }
+  #pricing {
+    max-width: 400px;
+    display: block;
+    margin: 0;
+  }
+  #categories{
+    width: 100%;
+  }
+}
